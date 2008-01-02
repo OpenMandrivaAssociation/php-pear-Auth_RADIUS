@@ -19,6 +19,7 @@ Requires:	php-pear
 Requires:	php-radius
 BuildArch:	noarch
 BuildRequires:	dos2unix
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 This package provides wrapper-classes for the RADIUS PECL. There are
