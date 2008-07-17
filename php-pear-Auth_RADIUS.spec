@@ -8,7 +8,7 @@
 Summary:	%{_pearname} - Wrapper Classes for the RADIUS PECL
 Name:		php-pear-%{_pearname}
 Version:	1.0.5
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -19,7 +19,7 @@ Requires:	php-pear
 Requires:	php-radius
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This package provides wrapper-classes for the RADIUS PECL. There are
