@@ -8,7 +8,7 @@
 Summary:	%{_pearname} - Wrapper Classes for the RADIUS PECL
 Name:		php-pear-%{_pearname}
 Version:	1.0.6
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
