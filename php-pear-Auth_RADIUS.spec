@@ -5,8 +5,8 @@
 %define		_requires_exceptions pear(Crypt_CHAP/CHAP.php)
 
 Name:		php-pear-%{upstream_name}
-Version:	1.0.6
-Release:	%mkrel 4
+Version:	1.0.7
+Release:	%mkrel 1
 Summary:	Wrapper Classes for the RADIUS PECL
 License:	PHP License
 Group:		Development/PHP
