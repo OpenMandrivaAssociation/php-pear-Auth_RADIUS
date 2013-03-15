@@ -23,8 +23,6 @@ different Classes for the different authentication methods. If you are
 using CHAP-MD5 or MS-CHAP you need also the Crypt_CHAP package. If you
 are using MS-CHAP you need also the mhash extension.
 
-In PEAR status of this package is: %{_status}.
-
 %prep
 %setup -q -c
 mv package.xml %{upstream_name}-%{version}/%{upstream_name}.xml
